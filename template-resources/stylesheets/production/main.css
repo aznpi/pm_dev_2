@@ -1,0 +1,91 @@
+/*
+
+PM MAIN CSS Stylesheet
+Author: Tat Chow
+Date: March 13, 2019
+
+*/
+/*
+    Table of Contents
+
+    1.0 - Common Selectors
+    2.0 - Header Menu/Top Navigation
+    3.0 - Buttons
+    	3.1 - Tabs
+    4.0 - Main Content
+    5.0 - Footer
+    6.0 - Home Sections
+*/
+/*1.0 - Common Selectors*/
+/*SASS variables*/
+/* line 28, ../../sass/internal/main.scss */
+body {
+  color: #050505;
+}
+
+/* line 32, ../../sass/internal/main.scss */
+h5 {
+  font-weight: 300;
+}
+
+/* line 35, ../../sass/internal/main.scss */
+.row {
+  padding: 0 50px;
+}
+
+/* line 39, ../../sass/internal/main.scss */
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*2.0 - Header Menu/Top Navigation */
+/* line 48, ../../sass/internal/main.scss */
+.navbar {
+  padding: 50px !important;
+}
+/* line 57, ../../sass/internal/main.scss */
+.navbar ul.navbar-nav li.nav-item {
+  margin-right: 25px;
+}
+
+/*Buttons*/
+/* line 71, ../../sass/internal/main.scss */
+button {
+  color: #FFFFFF;
+}
+
+/* line 74, ../../sass/internal/main.scss */
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #00349a;
+}
+
+/*6.0 - Home Sections*/
+/* line 83, ../../sass/internal/main.scss */
+#home-section section#hero {
+  color: #FFFFFF;
+  background-color: #00349a;
+  padding: 100px 200px;
+  text-align: center;
+}
+/* line 90, ../../sass/internal/main.scss */
+#home-section section#hero .btn-container {
+  margin-top: 50px;
+}
+/* line 93, ../../sass/internal/main.scss */
+#home-section section#hero .btn-container .btn-primary {
+  background-color: #007bff;
+}
+/* line 100, ../../sass/internal/main.scss */
+#home-section section#media-group {
+  background-color: #e7e7e7;
+  padding: 30px 0 30px;
+  text-align: center;
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* Small devices (landscape phones, 576px and up)*/
+/* Medium devices (tablets, 768px and up)*/
+/* Large devices (desktops, 992px and up)*/
+/* Extra large devices (large desktops, 1200px and up)*/

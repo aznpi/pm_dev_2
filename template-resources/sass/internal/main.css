@@ -1,0 +1,62 @@
+/*
+
+PM MAIN CSS Stylesheet
+Author: Tat Chow
+Date: March 13, 2019
+
+*/
+/*
+    Table of Contents
+
+    1.0 - Common Selectors
+    2.0 - Header Menu/Top Navigation
+    3.0 - Buttons
+    	3.1 - Tabs
+    4.0 - Main Content
+    5.0 - Footer
+    6.0 - Home Sections
+*/
+/*1.0 - Common Selectors*/
+/*SASS variables*/
+body {
+  color: #FFFFFF;
+  background-color: #000; }
+
+h5 {
+  font-weight: 300; }
+
+.row {
+  padding: 0 50px; }
+
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0; }
+
+/*2.0 - Header Menu/Top Navigation */
+.navbar {
+  padding: 0 50px !important; }
+  .navbar ul.navbar-nav li.nav-item {
+    margin-right: 25px; }
+
+/*Buttons*/
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #00349a; }
+
+/*6.0 - Home Sections*/
+#home-section section#hero {
+  background-color: #00349a;
+  padding: 100px 200px;
+  text-align: center; }
+  #home-section section#hero .btn-container {
+    margin-top: 50px; }
+    #home-section section#hero .btn-container .btn-primary {
+      background-color: #007bff; }
+
+/* Extra small devices (portrait phones, less than 576px)*/
+/* Small devices (landscape phones, 576px and up)*/
+/* Medium devices (tablets, 768px and up)*/
+/* Large devices (desktops, 992px and up)*/
+/* Extra large devices (large desktops, 1200px and up)*/
+
+/*# sourceMappingURL=main.css.map */
