@@ -14,7 +14,7 @@
 </head>
 <body>
 <%@ include file="includes/header.jsp" %>
-<div id="home-section" class="container-fluid">
+<div id="home-section" class="section container-fluid">
 	
 	<section id="section-hero">
 		<div class="row">
@@ -327,48 +327,12 @@
 			</div>
 		</div>
 	</section>
-	<section id="section-demo">
-		<div class="row">
-		
-			<div class="col">
-			
-				<div id="demo-form-container">
-					<h3>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h3>
-					<h6>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h6>
-					<div class="form-container">
-						<form>
-							<div class="form-row">
-								<div class="col">
-									<input type="text" class="form-control form-control-lg" placeholder="Full Name">
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="col">
-									<input type="text" class="form-control form-control-lg" placeholder="Business Name">
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="col">
-									<input type="email" class="form-control form-control-lg" placeholder="Email">
-								</div>
-								<div class="col">
-									<input type="text" class="form-control form-control-lg" placeholder="Phone">
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="col">
-									 <button type="button" class="btn btn-lg btn-primary">Book a Demo</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 </div>
 
 <%@ include file="includes/common_footer.jsp" %>
+
+
 <script>
 	function checkSlider(){
 		$('#carousel-features .carousel-control-prev').show();

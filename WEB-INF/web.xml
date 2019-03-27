@@ -35,4 +35,12 @@
     <servlet-name>home</servlet-name>
     <url-pattern></url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>productHome</servlet-name>
+    <jsp-file>/WEB-INF/template/template_product.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>productHome</servlet-name>
+    <url-pattern>/product</url-pattern>
+  </servlet-mapping>
 </web-app>

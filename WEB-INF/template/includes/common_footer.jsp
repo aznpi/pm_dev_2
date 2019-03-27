@@ -1,3 +1,45 @@
+
+<div id="section-demo" class="row">
+	<a name="demo-form"></a>
+	<div class="col-md-12">
+	
+		<div id="demo-form-container">
+			<h3>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h3>
+			<h6>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h6>
+			<div class="form-container">
+				<form>
+					<div class="form-row">
+						<div class="col">
+							<input type="text" class="form-control form-control-lg" placeholder="Full Name">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col">
+							<input type="text" class="form-control form-control-lg" placeholder="Business Name">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col">
+							<input type="email" class="form-control form-control-lg" placeholder="Email">
+						</div>
+						<div class="col">
+							<input type="text" class="form-control form-control-lg" placeholder="Phone">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="col">
+							 <button type="button" class="btn btn-lg btn-primary btn-orange">Book a Demo</button>
+						</div>
+					</div>
+				</form>
+				<p class="footnote">
+					By continuing, you agree to the <a href="#">Terms of Service</a>.<br/><a href="#">Security Safeguards</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+ 
  <div id="footer-container" class="row">
  	<div class="col logo">
  		<a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/logos/logo_pm.svg" width="300px"/></a>
@@ -59,18 +101,18 @@
  	<div class="row">
 	 	<div class="col-md-9">
 	 		<ul>
-	 			<li><a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/logos/logo_trust.png" width="75px"/></a></li>
-	 			<li><a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/logos/logo_bbb.png" width="75px"/></a></li>
-	 			<li><a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/logos/logo_pci.png" width="75px"/></a></li>
+	 			<li><a href="${baseUrl}/" target="_blank"><img src="${baseUrl}/template-resources/images/internal/logos/logo_trust.png" width="75px"/></a></li>
+	 			<li><a href="${baseUrl}/" target="_blank"><img src="${baseUrl}/template-resources/images/internal/logos/logo_bbb.png" width="75px"/></a></li>
+	 			<li><a href="${baseUrl}/" target="_blank"><img src="${baseUrl}/template-resources/images/internal/logos/logo_pci.png" width="75px"/></a></li>
 	 		</ul>
 	 		<span class="footnote">&copy; 2019 PerfectMind Inc. All Rights Reserved.</span>
 	 	</div>
 	 	<div class="col-md-3">
-	 		<ul>
-	 			<li><a href="#"><a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/icons/icon_fb.png" width="30px"/></a></li>
-				<li><a href="#"><a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/icons/icon_ig.png" width="30px"/></a></li>
-				<li><a href="#"><a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/icons/icon_yt.png" width="30px"/></a></li>
-				<li><a href="#"><a href="${baseUrl}/"><img src="${baseUrl}/template-resources/images/internal/icons/icon_tw.png" width="30px"/></a></li>
+	 		<ul class="social-media-links">
+	 			<li><a href="https://www.facebook.com/PerfectMINDfans" target="_blank"><img src="${baseUrl}/template-resources/images/internal/icons/icon_fb.png" width="30px"/></a></li>
+				<li><a href="#" target="_blank"><img src="${baseUrl}/template-resources/images/internal/icons/icon_ig.png" width="30px"/></a></li>
+				<li><a href="https://www.youtube.com/user/perfectmindvids" target="_blank"><img src="${baseUrl}/template-resources/images/internal/icons/icon_yt.png" width="30px"/></a></li>
+				<li><a href="https://twitter.com/PerfectMind" target="_blank"><img src="${baseUrl}/template-resources/images/internal/icons/icon_tw.png" width="30px"/></a></li>
 	 		</ul>
 	 	</div>
  	</div>
@@ -83,5 +125,3 @@
     
     <!-- pm javascript -->
 <script src="${baseUrl}/template-resources/javascripts/internal/main_function.js"></script>
-
-<%@ include file="modal_demo.jsp" %>

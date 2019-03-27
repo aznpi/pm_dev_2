@@ -9,7 +9,7 @@
       <li class="nav-item dropdown">
         
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Features
+          Features <i class="far fa-chevron-down"></i>
         </a>
         
         <div class="dropdown-menu multi-column columns-2"  aria-labelledby="navbarDropdown">
@@ -19,26 +19,26 @@
         				<li>
         					<ul>
         						<li><i class="fal fa-users"></i></li>
-        						<li><a class="dropdown-item" href="#">Member Management</a></li>
+        						<li><a class="dropdown-item" href="${baseUrl}/product">Member Management</a></li>
         					</ul>
         				</li>
         				<li>
         					<ul>
         						<li><i class="fal fa-mouse-pointer"></i></li>
-        						<li><a class="dropdown-item" href="#">Online Booking</a></li>
+        						<li><a class="dropdown-item" href="${baseUrl}/product">Online Booking</a></li>
         					</ul>
         					
         				</li>
         				<li>
         					<ul>
         						<li><i class="fal fa-calendar-check"></i></li>
-        						<li><a class="dropdown-item" href="#">Calendar and Events</a></li></li>
+        						<li><a class="dropdown-item" href="${baseUrl}/product">Calendar and Events</a></li></li>
         					</ul>
         				
         				<li>
         					<ul>
         						<li><i class="fal fa-cart-plus"></i></li>
-        						<li><a class="dropdown-item" href="#"> POS and Ecommerce</a></li>
+        						<li><a class="dropdown-item" href="${baseUrl}/product"> POS and Ecommerce</a></li>
         					</ul>
         				</li>
         			</ul>
@@ -48,19 +48,19 @@
         				<li>
         					<ul>
         						<li><i class="fal fa-calendar-check"></i></li>
-        						<li><a class="dropdown-item" href="#">Facility Reservation</a></li>
+        						<li><a class="dropdown-item" href="${baseUrl}/product">Facility Reservation</a></li>
         					</ul>
         				</li>
         				<li>
         					<ul>
         						<li><i class="fal fa-child"></i></li>
-        						<li><a class="dropdown-item" href="#">Child Care</a></li>
+        						<li><a class="dropdown-item" href="${baseUrl}/product">Child Care</a></li>
         					</ul>
         				</li>
         				<li>
         					<ul>
         						<li><i class="fal fa-cogs"></i></li>
-        						<li><a class="dropdown-item" href="#"> Marketing Software</a></li>
+        						<li><a class="dropdown-item" href="${baseUrl}/product"> Marketing Software</a></li>
         					</ul>
         				</li>
         			</ul>
@@ -73,7 +73,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Solutions
+          Solutions <i class="far fa-chevron-down"></i>
         </a>
         <div class="dropdown-menu multi-column columns-2"  aria-labelledby="navbarDropdown">
         	<div class="row">
@@ -127,6 +127,34 @@
           
         </div>
       </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services <i class="far fa-chevron-down"></i>
+        </a>
+        <div class="dropdown-menu"  aria-labelledby="navbarDropdown">
+        	<div class="row">
+        		<div class="col-sm-12">
+        			<ul>
+        				<li>
+        					<a class="dropdown-item" href="#">Marketing Services</a>
+        				</li>
+        				<li>
+        					<a class="dropdown-item" href="#">Implementation</a>
+        				</li>
+        				<li>
+        					<a class="dropdown-item" href="#">Professional Services</a>
+        				</li>
+        				<li>
+        					<a class="dropdown-item" href="#">Fitness Gym</a>
+        				</li>
+        			</ul>
+        		</div>
+        		
+        		
+        	</div>
+          
+        </div>
+      </li>
       <li class="nav-item ">
         <a class="nav-link" href="#" role="button">
           Pricing
@@ -134,7 +162,7 @@
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Support
+          Support <i class="far fa-chevron-down"></i>
         </a>
         <div class="dropdown-menu multi-column columns-2"  aria-labelledby="navbarDropdown">
         	<div class="row">
@@ -172,9 +200,9 @@
     </form>
     -->
     	<a class="nav-link nav-login" href="https://login.perfectmind.com/SocialSite/MemberRegistration/MemberSignIn" role="button" >
-	       <i class="fal fa-sign-in"></i> Login
+	       <i class="far fa-user"></i> Login
 	    </a> 
-	 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#book-demo">Book a Demo</button>
+	 <button type="button" class="btn btn-primary btn-lg demo-link">Book a Demo</button>
   </div>
 
 	  	
