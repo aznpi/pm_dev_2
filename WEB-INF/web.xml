@@ -27,6 +27,16 @@
     <url-pattern>*.gif</url-pattern>
     <url-pattern>*.jpg</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>templateResponsive</servlet-name>
+    <jsp-file>/WEB-INF/template/template_responsive.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>templateResponsive</servlet-name>
+    <url-pattern>/responsive-test</url-pattern>
+  </servlet-mapping>
+  
   <servlet>
     <servlet-name>home</servlet-name>
     <jsp-file>/WEB-INF/template/index.jsp</jsp-file>
@@ -35,12 +45,59 @@
     <servlet-name>home</servlet-name>
     <url-pattern></url-pattern>
   </servlet-mapping>
+ 
   <servlet>
-    <servlet-name>productHome</servlet-name>
+    <servlet-name>featureHome</servlet-name>
     <jsp-file>/WEB-INF/template/template_product.jsp</jsp-file>
   </servlet>
   <servlet-mapping>
-    <servlet-name>productHome</servlet-name>
-    <url-pattern>/product</url-pattern>
+    <servlet-name>featureHome</servlet-name>
+    <url-pattern>/feature</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>featureMembershipContacts</servlet-name>
+    <jsp-file>/WEB-INF/template/pages/features/page_membership_management_contacts.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>featureMembershipContacts</servlet-name>
+    <url-pattern>/feature/membership-management/contacts-accounts</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>featureMembershipDocumentManagement</servlet-name>
+    <jsp-file>/WEB-INF/template/pages/features/page_membership_management_document_management.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>featureMembershipDocumentManagement</servlet-name>
+    <url-pattern>/feature/membership-management/document-management</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>featureMembershipMembership</servlet-name>
+    <jsp-file>/WEB-INF/template/pages/features/page_membership_management_membership.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>featureMembershipMembership</servlet-name>
+    <url-pattern>/feature/membership-management/membership</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>featureMembershipStaffManagement</servlet-name>
+    <jsp-file>/WEB-INF/template/pages/features/page_membership_management_staff_management.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>featureMembershipStaffManagement</servlet-name>
+    <url-pattern>/feature/membership-management/staff-management</url-pattern>
+  </servlet-mapping>
+  
+  
+   <servlet>
+    <servlet-name>solutionsHome</servlet-name>
+    <jsp-file>/WEB-INF/template/template_solutions.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>solutionsHome</servlet-name>
+    <url-pattern>/solutions</url-pattern>
   </servlet-mapping>
 </web-app>

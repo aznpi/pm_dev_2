@@ -18,7 +18,7 @@
 
 <div id="section-product" class="section container-fluid">
 	
-	<section id="section-hero">
+	<section id="section-hero" class="section-hero">
 		<div class="row">
 			<div class="col-md-6 description">
 				<h1>Membership Management Software</h1>
@@ -31,17 +31,29 @@
 		</div>
 	</section>
 	<section id="section-membership-widgets">
-		<div id="membership-carousel" class="carousel slide" data-ride="carousel" data-interval="false">
-			<div id="membership-nav" class="row">	
+		<div id="membership-carousel" class="nav-carousel">
+			<div id="membership-nav" class="nav-title row">	
 				<div class="col-md-12">
 					<ul>
-						<li data-target="#membership-carousel" data-slide-to="0" class="active"><span>Contacts and Accounts</span></li>
-                        <li data-target="#membership-carousel" data-slide-to="1"><span>Membership</span></li>
-                        <li data-target="#membership-carousel" data-slide-to="2"><span>Staff Management</span></li>
-                        <li data-target="#membership-carousel" data-slide-to="3"><span>Document Management</span></li>
+						<li data-target="#membership-carousel" data-slide-to="0" class="active"><span><a href="${baseUrl}/product/membership-management/contacts-and-accounts">Contacts and Accounts</a></span></li>
+                        <li data-target="#membership-carousel" data-slide-to="1"><span><a href="${baseUrl}/product/membership-management/membership">Membership</a></span></li>
+                        <li data-target="#membership-carousel" data-slide-to="2"><span><a href="${baseUrl}/product/membership-management/staff-management">Staff Management</a></span></li>
+                        <li data-target="#membership-carousel" data-slide-to="3"><span><a href="${baseUrl}/product/membership-management/document-management">Document Management</a></span></li>
 					</ul>
+					<div class="form-group">
+						<i class="far fa-chevron-down"></i>
+						<select>
+							<option value="0">Contacts and Accounts</option>
+							<option value="1">Membership</option>
+							<option value="2">Staff Management</option>
+							<option value="3">Document Management</option>
+						</select>
+					</div>
+					
 				</div>
 			</div>
+			
+			
 			<div class="row">
 				<div class="col">
 					<div class="carousel-inner" role="listbox">
@@ -53,7 +65,9 @@
 									<button type="button" class="btn btn-lg btn-primary demo-link">Book a demo</button> <button type="button" class="btn btn-lg btn-outline-primary">Download datasheet</button>
 			                    </div>
 			                    <div class="col-md-6">
-			                    	<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			                    	<div class="img-bottom">
+			                    		<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			                    	</div>
 			                    </div>
 							</div>
 						</div>
@@ -66,7 +80,9 @@
 									<button type="button" class="btn btn-lg btn-primary demo-link">Book a demo</button> <button type="button" class="btn btn-lg btn-outline-primary">Download datasheet</button>
 			                    </div>
 			                    <div class="col-md-6">
-			                    	<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			                    	<div class="img-bottom">
+			                    		<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			                    	</div>
 			                    </div>
 							</div>
 						</div>
@@ -79,7 +95,9 @@
 									<button type="button" class="btn btn-lg btn-primary demo-link">Book a demo</button> <button type="button" class="btn btn-lg btn-outline-primary">Download datasheet</button>
 			                    </div>
 			                    <div class="col-md-6">
-			                    	<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			                    	<div class="img-bottom">
+			                    		<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			           			</div>         	
 			                    </div>
 							</div>
 						</div>
@@ -92,7 +110,9 @@
 									<button type="button" class="btn btn-lg btn-primary demo-link">Book a demo</button> <button type="button" class="btn btn-lg btn-outline-primary">Download datasheet</button>
 			                    </div>
 			                    <div class="col-md-6">
-			                    	<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			                    	<div class="img-bottom">
+			                    		<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+			                    	</div>
 			                    </div>
 							</div>
 						</div>
@@ -106,7 +126,9 @@
 	<section id="section-client-dashboard">
 		<div class="row">
 			<div class="col-md-6">
-				<img src="${baseUrl}/template-resources/images/internal/background/img_client_dashboard.png" class="img-responsive">
+				<div class="img-bottom">
+					<img src="${baseUrl}/template-resources/images/internal/background/img_client_dashboard.png" class="img-responsive">
+				</div>
 			</div>
 			<div class="col-md-6 description">
 				<h1>Push pass, Limited & ongoing membership</h1>
@@ -130,7 +152,9 @@
 	<section id="section-freeze">
 		<div class="row">
 			<div class="col-md-6">
-				<img src="${baseUrl}/template-resources/images/internal/background/img_tablet.png" class="img-responsive">
+				<div class="img-bottom">
+					<img src="${baseUrl}/template-resources/images/internal/background/img_tablet.png" class="img-responsive">
+				</div>
 			</div>
 			<div class="col-md-6 description">
 				<h1>Freeze and Hold</h1>
@@ -178,7 +202,7 @@
 				<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet</h5>
 			</div>
 		</div>
-		<div id="topic-container" class="row">
+		<div id="topic-container" class="topic-container row">
 			<div class="col-md-4">
 				<div>
 					<div id="webinar-container" class="img-container">
@@ -199,7 +223,7 @@
 					<div class="info-container">
 						<h6>Video Title</h6>
 						<div class="description">Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur</div>
-						<a href="#">Watch Now <i class="fas fa-play-circle"></i></a>
+						<a href="#" class="video-play" rel="https://www.youtube.com/embed/xodacZz6SqI">Watch Now <i class="fas fa-play-circle"></i></a>
 					</div>
 				</div>
 			</div>
@@ -290,14 +314,6 @@
 
 <%@ include file="includes/common_footer.jsp" %>
 <%@ include file="includes/modal_video.jsp" %>
-<script>
-$(document).ready(function() {
-	$("#membership-carousel #membership-nav ul li").click(function () {
-	    $("#membership-carousel #membership-nav ul li").removeClass("active");
-	    // $(".tab").addClass("active"); // instead of this do the below 
-	    $(this).addClass("active");   
-	});
-});
-</script>
+
 </body>
 </html>

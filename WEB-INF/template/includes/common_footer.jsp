@@ -3,7 +3,7 @@
 	<a name="demo-form"></a>
 	<div class="col-md-12">
 	
-		<div id="demo-form-container">
+		<div class="demo-form-container">
 			<h3>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h3>
 			<h6>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h6>
 			<div class="form-container">
