@@ -10,36 +10,65 @@
 	      <li class="nav-item dropdown">
 	        
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	          Features <i class="far fa-chevron-down"></i>
+	          Product <i class="far fa-chevron-down"></i>
 	        </a>
 	        
 	        <div class="dropdown-menu multi-column columns-2"  aria-labelledby="navbarDropdown">
-	        	<div class="row">
+	        	<div class="row section-nav-title">
+	        		<div class="col-md-12">
+	        			<dl>
+	        				<dt>PerfectMind Platform</dt>
+	        				<dd>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet<br/>
+	        				Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</dd>
+	        			</dl>
+	        		</div>
+	        	</div>
+	        	<div class="row section-nav-links">
 	        		<div class="col-sm-6">
 	        			<ul>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-users"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/feature/membership-management/contacts-accounts">Member Management</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/feature/membership-management/contacts-accounts">Member Management</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-mouse-pointer"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/features">Online Booking</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/features">Online Booking</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        					
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-calendar-check"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/features">Calendar and Events</a></li></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/features">Calendar and Events</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li></li>
 	        					</ul>
 	        				
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-cart-plus"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/features"> POS and Ecommerce</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/features"> POS and Ecommerce</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        			</ul>
@@ -49,19 +78,34 @@
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-calendar-check"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/features">Facility Reservation</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/features">Facility Reservation</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-child"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/features">Child Care</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/features">Child Care</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-cogs"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/features"> Marketing Software</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/features"> Marketing Software</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        			</ul>
@@ -77,25 +121,50 @@
 	          Solutions <i class="far fa-chevron-down"></i>
 	        </a>
 	        <div class="dropdown-menu multi-column columns-2"  aria-labelledby="navbarDropdown">
-	        	<div class="row">
+	        	<div class="row section-nav-title">
+	        		<div class="col-md-12">
+	        			<dl>
+	        				<dt>PerfectMind Solutions</dt>
+	        				<dd>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet<br/>
+	        				Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</dd>
+	        			</dl>
+	        		</div>
+	        	</div>
+	        	<div class="row section-nav-link">
 	        		<div class="col-sm-6">
 	        			<ul>
 	        				<li>
 	        					<ul>
-	        						<li><i class="fal fa-trees"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/solutions">Parks and Recreation</a></li>
+	        						<li>
+	        							<i class="fal fa-trees"></i></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/solutions">Parks and Recreation</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-handshake-alt"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/solutions">Affiliated Gyms</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/solutions">Affiliated Gyms</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-dumbbell"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/solutions">Fitness Gym</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/solutions">Fitness Gym</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        			</ul>
@@ -105,19 +174,35 @@
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-boxing-glove"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/solutions">Martial Arts School</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/solutions">Martial Arts School</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        								
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-hockey-sticks"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/solutions">Sports Clubs</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/solutions">Sports Clubs</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        				<li>
 	        					<ul>
 	        						<li><i class="fal fa-swimmer"></i></li>
-	        						<li><a class="dropdown-item" href="${baseUrl}/solutions">Swimming Clubs</a></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="${baseUrl}/solutions">Swimming Clubs</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
 	        					</ul>
 	        				</li>
 	        			</ul>
@@ -132,21 +217,70 @@
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	          Services <i class="far fa-chevron-down"></i>
 	        </a>
-	        <div class="dropdown-menu"  aria-labelledby="navbarDropdown">
-	        	<div class="row">
-	        		<div class="col-sm-12">
+	        <div class="dropdown-menu  multi-column columns-2"  aria-labelledby="navbarDropdown">
+	        	<div class="row section-nav-title">
+	        		<div class="col-md-12">
+	        			<dl>
+	        				<dt>PerfectMind Services</dt>
+	        				<dd>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet<br/>
+	        				Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet</dd>
+	        			</dl>
+	        		</div>
+	        	</div>
+	        	<div class="row section-nav-link">
+	        		<div class="col-sm-6">
 	        			<ul>
 	        				<li>
-	        					<a class="dropdown-item" href="#">Marketing Services</a>
+	        					<ul>
+	        						<li><i class="fal fa-user-tie"></i></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="#">Professional Services</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
+	        					</ul>
+	        					
 	        				</li>
 	        				<li>
-	        					<a class="dropdown-item" href="#">Implementation</a>
+	        					<ul>
+	        						<li><i class="fal fa-bullhorn"></i></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="#">Marketing Services</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
+	        					</ul>
+	        					
+	        				</li>		
+	        			</ul>
+	        		</div>
+	        		<div class="col-sm-6">
+	        			<ul>
+	        				<li>
+	        					<ul>
+	        						<li><i class="fal fa-user-headset"></i></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="#">Premium Sport</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
+	        					</ul>
+	        					
 	        				</li>
 	        				<li>
-	        					<a class="dropdown-item" href="#">Professional Services</a>
-	        				</li>
-	        				<li>
-	        					<a class="dropdown-item" href="#">Fitness Gym</a>
+	        					<ul>
+	        						<li><i class="fal fa-wrench"></i></li>
+	        						<li>
+	        							<dl>
+	        								<dt><a class="dropdown-item" href="#">Implementation</a></dt>
+	        								<dd>Lorem ipsum dolor sit amet</dd>
+	        							</dl>
+	        						</li>
+	        					</ul>
+	        					
 	        				</li>
 	        			</ul>
 	        		</div>
@@ -165,25 +299,105 @@
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	          Support <i class="far fa-chevron-down"></i>
 	        </a>
-	        <div class="dropdown-menu multi-column columns-2"  aria-labelledby="navbarDropdown">
+	        <div class="dropdown-menu multi-column columns-2 dropdown-menu-right"  aria-labelledby="navbarDropdown">
 	        	<div class="row">
 	        		<div class="col-sm-6">
-	        			<a class="dropdown-item nav-title" href="#"><i class="fal fa-life-ring"></i> PerfectMind Help</a>
+	        			<div class="vertical-divider-right"></div>
+	        			<div class="section-nav-title">
+			        		
+		        			<dl>
+		        				<dt>PerfectMind Help</dt>
+		        				<dd>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</dd>
+		        			</dl>
+		        		
+			        	</div>
 	        			<ul>
-	        				<li><a class="dropdown-item" href="#">Services FAQ</a></li>
-	        				<li><a class="dropdown-item" href="#">Support Information</a></li>
-	        				<li><a class="dropdown-item" href="#">Community Portal</a></li>
-	        				<li><a class="dropdown-item" href="#">PerfectMind University</a></li>
+	        				<li>
+	        					<ul>
+	        						<li><i class="fal fa-book"></i></li>
+	        						<li>
+	        							<dl>
+		        							<dt><a class="dropdown-item" href="#">Knowledge base</a></dt>
+		        							<dd>Lorem ipsum dolor sit amet</dd>
+		        						</dl>
+	        						</li>
+	        					</ul>
+	        				</li>
+	        				<li>
+	        					<ul>
+	        						<li><i class="fal fa-life-ring"></i></li>
+	        						<li>
+	        							<dl>
+		        							<dt><a class="dropdown-item" href="#">Support Information</a></dt>
+		        							<dd>Lorem ipsum dolor sit amet</dd>
+		        						</dl>
+	        						</li>
+	        					</ul>
+	        				</li>
+	        				<li>
+	        					<ul>
+	        						<li><i class="fal fa-users-class"></i></li>
+	        						<li>
+	        							<dl>
+		        							<dt><a class="dropdown-item" href="#">Community Portal</a></dt>
+		        							<dd>Lorem ipsum dolor sit amet</dd>
+		        						</dl>
+	        						</li>
+	        					</ul>
+	        				</li>
+	        				<li>
+	        					<ul>
+	        						<li><i class="fal fa-user-graduate"></i></li>
+	        						<li>
+	        							<dl>
+		        							<dt><a class="dropdown-item" href="#">PerfectMind University</a></dt>
+		        							<dd>Lorem ipsum dolor sit amet</dd>
+		        						</dl>
+	        						</li>
+	        					</ul>
+	        				</li>
 	        			</ul>
 	        		</div>
 	        		<div class="col-sm-6">
-	        			<a class="dropdown-item nav-title" href="#"><i class="fal fa-folder-open"></i> Resources</a>
+	        			<div class="section-nav-title">
+			        		
+		        			<dl>
+		        				<dt>Resources</dt>
+		        				<dd>Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet</dd>
+		        			</dl>
+		        		
+			        	</div>
 	        			<ul>
-	        				<li><a class="dropdown-item" href="#">Case Studies</a></li>
-	        				<li><a class="dropdown-item" href="#">White Papers</a></li>
-	        				<li><a class="dropdown-item" href="#">Webinars</a></li>
-	        				<li><a class="dropdown-item" href="#">E-books</a></li>
-	        				<li><a class="dropdown-item" href="#">Partners &amp; Consultants</a></li>
+	        				<li>
+	        					<dl>
+	        						<dt><a class="dropdown-item" href="#">Case Studies</a></dt>
+	        						<dd>Lorem ipsum dolor sit amet</dd>
+	        					</dl>
+	        				</li>
+	        				<li>
+	        					<dl>
+	        						<dt><a class="dropdown-item" href="#">Webinars</a></dt>
+	        						<dd>Lorem ipsum dolor sit amet</dd>
+	        					</dl>
+	        				</li>
+	        				<li>
+	        					<dl>
+	        						<dt><a class="dropdown-item" href="#">E-books</a></dt>
+	        						<dd>Lorem ipsum dolor sit amet</dd>
+	        					</dl>
+	        				</li>
+	        				<li>
+	        					<dl>
+	        						<dt><a class="dropdown-item" href="#">Partners &amp; Consultants</a></dt>
+	        						<dd>Lorem ipsum dolor sit amet</dd>
+	        					</dl>
+	        				</li>
+	        				<li>
+	        					<dl>
+	        						<dt><a class="dropdown-item" href="#">Blog</a></dt>
+	        						<dd>Lorem ipsum dolor sit amet</dd>
+	        					</dl>
+	        				</li>
 	        			</ul>
 	        		
 	        		</div>

@@ -2,6 +2,7 @@
 
 
 $(document).ready(function(){
+	$(this).scrollTop(0);
 //skrink nav
     $(window).scroll(function() {
       if ($(document).scrollTop() > 1) {

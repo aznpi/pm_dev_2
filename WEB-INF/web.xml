@@ -100,4 +100,40 @@
     <servlet-name>solutionsHome</servlet-name>
     <url-pattern>/solutions</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>securityHome</servlet-name>
+    <jsp-file>/WEB-INF/template/template_security.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>securityHome</servlet-name>
+    <url-pattern>/security</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>resourcesHome</servlet-name>
+    <jsp-file>/WEB-INF/template/template_resources.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>resourcesHome</servlet-name>
+    <url-pattern>/resources</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>resourcesWebinar</servlet-name>
+    <jsp-file>/WEB-INF/template/pages/resources/page_resources_webinar.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>resourcesWebinar</servlet-name>
+    <url-pattern>/resources/webinar</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>resourcesWhitepaper</servlet-name>
+    <jsp-file>/WEB-INF/template/pages/resources/page_resources_whitepaper.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>resourcesWhitepaper</servlet-name>
+    <url-pattern>/resources/whitepaper</url-pattern>
+  </servlet-mapping>
 </web-app>

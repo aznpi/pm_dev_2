@@ -22,7 +22,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<div class="demo-form-container">
-						<h3>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h3>
+						<h1>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h1>
 						<h6>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet</h6>
 						<div class="form-container">
 							<form>
@@ -83,10 +83,10 @@
 							      <li class="nav-item" data-target="#features-carousel" data-slide-to="2">
 							      	<a class="nav-link" href="#">Calendar and Events</a>
 							      </li>
-							       <li class="nav-item" data-target="#features-carousel" data-slide-to=3">
+							       <li class="nav-item" data-target="#features-carousel" data-slide-to="3">
 							        <a class="nav-link" href="#">POS and Ecommerce</a>
 							      </li>
-							       <li class="nav-item" data-target="#features-carousel" data-slide-to=4">
+							       <li class="nav-item" data-target="#features-carousel" data-slide-to="4">
 							        <a class="nav-link" href="#">Facility Reservation</a>
 							      </li>
 							    </ul>
@@ -103,7 +103,7 @@
 								<div class="carousel-item active">
 									<div class="row">
 										<div class="col-md-6 description">
-					                    	<h1>Member Management</h1>
+					                    	<h2>Member Management</h2>
 											<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 											<button type="button" class="btn btn-lg btn-outline-primary">Learn More about this feature</button>
 					                    </div>
@@ -118,7 +118,7 @@
 								<div class="carousel-item">
 									<div class="row">
 										<div class="col-md-6 description">
-					                    	<h1>Online booking</h1>
+					                    	<h2>Online booking</h2>
 											<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 											<button type="button" class="btn btn-lg btn-outline-primary">Learn More about this feature</button>
 					                    </div>
@@ -133,7 +133,7 @@
 								<div class="carousel-item">
 									<div class="row">
 										<div class="col-md-6 description">
-					                    	<h1>Calendar and Events</h1>
+					                    	<h2>Calendar and Events</h2>
 											<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 											<button type="button" class="btn btn-lg btn-outline-primary">Learn More about this feature</button>
 					                    </div>
@@ -148,7 +148,7 @@
 								<div class="carousel-item">
 									<div class="row">
 										<div class="col-md-6 description">
-					                    	<h1>POS and Ecommerce</h1>
+					                    	<h2>POS and Ecommerce</h2>
 											<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 											<button type="button" class="btn btn-lg btn-outline-primary">Learn More about this feature</button>
 					                    </div>
@@ -163,7 +163,7 @@
 								<div class="carousel-item">
 									<div class="row">
 										<div class="col-md-6 description">
-					                    	<h1>Facility Reservation</h1>
+					                    	<h2>Facility Reservation</h2>
 											<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 											<button type="button" class="btn btn-lg btn-outline-primary">Learn More about this feature</button>
 					                    </div>
@@ -182,11 +182,11 @@
 				</div>
 		</div>
 	</section>
-	<section id="section-features-testimonial">
+	<section id="section-features-testimonial" class="bg-light-grey">
 		<div>
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Lorem ipsum dolor sit amet consectetur</h1>
+					<h2>Lorem ipsum dolor sit amet consectetur</h2>
 				</div>
 			</div>
 			<div class="row no-pad box-row">
@@ -252,7 +252,7 @@
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Lorem ipsum dolor sit amet consectetur adipiiscing </h1>
+					<h2>Lorem ipsum dolor sit amet consectetur adipiiscing </h2>
 					<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet</h5>
 				</div>
 			</div>
@@ -300,7 +300,7 @@
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Lorem ipsum dolor sit amet consectetur adipiiscing </h1>
+					<h2>Lorem ipsum dolor sit amet consectetur adipiiscing </h2>
 				</div>
 			</div>
 			<div class="row client-logos">

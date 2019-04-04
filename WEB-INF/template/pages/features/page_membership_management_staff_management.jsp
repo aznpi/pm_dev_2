@@ -75,7 +75,7 @@
 							<div class="carousel-item active">
 								<div class="row">
 									<div class="col-md-6 description">
-				                    	<h1>Staff Management</h1>
+				                    	<h2>Staff Management</h2>
 										<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 										<button type="button" class="btn btn-lg btn-primary demo-link">Book a demo</button> <button type="button" class="btn btn-lg btn-outline-primary">Download datasheet</button>
 				                    </div>
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 description">
-					<h1>Push pass, Limited & ongoing membership</h1>
+					<h2>Push pass, Limited & ongoing membership</h2>
 					<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 					<span><a href="#" data-toggle="modal" class="video-play" rel="https://www.youtube.com/embed/xodacZz6SqI">PLAY VIDEO <i class="fas fa-play-circle"></i></a></span>
 				</div>
@@ -113,7 +113,7 @@
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-6 description">
-					<h1>Multiple fees and payment plan</h1>
+					<h2>Multiple fees and payment plan</h2>
 					<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 					<button type="button" class="btn btn-lg btn-primary demo-link">Book a demo</button> <button type="button" class="btn btn-lg btn-outline-primary">Download datasheet</button>
 				</div>
@@ -132,7 +132,7 @@
 					</div>
 				</div>
 				<div class="col-md-6 description">
-					<h1>Freeze and Hold</h1>
+					<h2>Freeze and Hold</h2>
 					<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 					<button type="button" class="btn btn-lg btn-primary demo-link">Book a demo</button> <button type="button" class="btn btn-lg btn-white">Download datasheet</button>
 				</div>
@@ -143,7 +143,7 @@
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-6 description">
-					<h1>Multi Program Membership</h1>
+					<h2>Multi Program Membership</h2>
 					<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet consectetur adipiiscing.</h5>
 				</div>
 				<div class="col-md-6">
@@ -156,7 +156,7 @@
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-6 description">
-					<h1>Even More Features for Membership</h1>
+					<h2>Even More Features for Membership</h2>
 					<ul>
 						<li><i class="fas fa-check-circle"></i> <span>Group membership</span></li>
 						<li><i class="fas fa-check-circle"></i> <span>Auto membership renewal</span></li>
@@ -167,7 +167,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="box-container">
-						<h1>Did You Know...</h1>
+						<h2>Did You Know...</h2>
 						<h5>Forbes calls PerfectMind "extremely easy for customers to sue with little-to-know training."</h5>
 						<button type="button" class="btn btn-lg btn-primary btn-orange">Try it free</button>
 					</div>
@@ -179,7 +179,7 @@
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Lorem ipsum dolor sit amet consectetur adipiiscing </h1>
+					<h2>Lorem ipsum dolor sit amet consectetur adipiiscing </h2>
 					<h5>Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet consectetur adipiiscing Lorem ipsum dolor sit amet</h5>
 				</div>
 			</div>
@@ -223,7 +223,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<h1>Frequently Asked Questions</h1>
+					<h2>Frequently Asked Questions</h2>
 					<div class="accordion" id="faq-collapse">
 					  <div class="card">
 					    <div class="card-header" id="heading-1">

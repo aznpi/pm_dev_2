@@ -125,3 +125,4 @@
     
     <!-- pm javascript -->
 <script src="${baseUrl}/template-resources/javascripts/internal/main_function.js"></script>
+<%@ include file="../includes/modal_video.jsp" %>
