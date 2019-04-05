@@ -80,7 +80,7 @@
  		<h5>HELPFUL LINKS</h5>
  		<ul>
  			<li><a href="#">Login</a></li>
- 			<li><a href="#">Support</a></li>
+ 			<li><a href="${baseUrl}/security">Security</a></li>
  			<li><a href="#">Schedule Demo</a></li>
  			<li><a href="#">Support Webinars</a></li>
  			<li><a href="#">Resources</a></li>

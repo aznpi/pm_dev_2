@@ -163,18 +163,7 @@
 					                	<dd>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </dd>
 					                </dl>
 					            </div>
-					            <div class="carousel-item col-md-3">
-					                <dl>
-					                	<dt>test 7</dt>
-					                	<dd>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </dd>
-					                </dl>
-					            </div>
-					            <div class="carousel-item col-md-3">
-					                <dl>
-					                	<dt>test 8</dt>
-					                	<dd>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </dd>
-					                </dl>
-					            </div>
+					            
 					        </div>
 					        <a class="carousel-control-prev" href="#multi-carousel" role="button" data-slide="prev">
 					            <i class="fa fa-chevron-left fa-lg text-muted"></i>

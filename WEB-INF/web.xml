@@ -136,4 +136,13 @@
     <servlet-name>resourcesWhitepaper</servlet-name>
     <url-pattern>/resources/whitepaper</url-pattern>
   </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>pricingHome</servlet-name>
+    <jsp-file>/WEB-INF/template/template_pricing.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>pricingHome</servlet-name>
+    <url-pattern>/pricing</url-pattern>
+  </servlet-mapping>
 </web-app>

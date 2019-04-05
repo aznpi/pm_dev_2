@@ -5,7 +5,7 @@
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
 	
-	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	  <div class="collapse navbar-collapse scrollable-menu" id="navbarSupportedContent">
 	    <ul class="navbar-nav mr-auto">
 	      <li class="nav-item dropdown">
 	        
@@ -13,7 +13,7 @@
 	          Product <i class="far fa-chevron-down"></i>
 	        </a>
 	        
-	        <div class="dropdown-menu multi-column columns-2"  aria-labelledby="navbarDropdown">
+	        <div class="dropdown-menu multi-column columns-2 "  aria-labelledby="navbarDropdown">
 	        	<div class="row section-nav-title">
 	        		<div class="col-md-12">
 	        			<dl>
@@ -23,7 +23,7 @@
 	        			</dl>
 	        		</div>
 	        	</div>
-	        	<div class="row section-nav-links">
+	        	<div class="row section-nav-links scrollable-menu">
 	        		<div class="col-sm-6">
 	        			<ul>
 	        				<li>
@@ -57,7 +57,7 @@
 	        								<dt><a class="dropdown-item" href="${baseUrl}/features">Calendar and Events</a></dt>
 	        								<dd>Lorem ipsum dolor sit amet</dd>
 	        							</dl>
-	        						</li></li>
+	        						</li>
 	        					</ul>
 	        				
 	        				<li>
@@ -111,9 +111,7 @@
 	        			</ul>
 	        		
 	        		</div>
-	        		
 	        	</div>
-	          
 	        </div>
 	      </li>
 	      <li class="nav-item dropdown">
@@ -130,7 +128,7 @@
 	        			</dl>
 	        		</div>
 	        	</div>
-	        	<div class="row section-nav-link">
+	        	<div class="row section-nav-link scrollable-menu">
 	        		<div class="col-sm-6">
 	        			<ul>
 	        				<li>
@@ -217,7 +215,7 @@
 	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 	          Services <i class="far fa-chevron-down"></i>
 	        </a>
-	        <div class="dropdown-menu  multi-column columns-2"  aria-labelledby="navbarDropdown">
+	        <div class="dropdown-menu  multi-column columns-2 nav-right"  aria-labelledby="navbarDropdown">
 	        	<div class="row section-nav-title">
 	        		<div class="col-md-12">
 	        			<dl>
@@ -227,7 +225,7 @@
 	        			</dl>
 	        		</div>
 	        	</div>
-	        	<div class="row section-nav-link">
+	        	<div class="row section-nav-link scrollable-menu">
 	        		<div class="col-sm-6">
 	        			<ul>
 	        				<li>
@@ -291,7 +289,7 @@
 	        </div>
 	      </li>
 	      <li class="nav-item ">
-	        <a class="nav-link" href="#" role="button">
+	        <a class="nav-link" href="${baseUrl}/pricing" role="button">
 	          Pricing
 	        </a> 
 	      </li>
@@ -300,7 +298,7 @@
 	          Support <i class="far fa-chevron-down"></i>
 	        </a>
 	        <div class="dropdown-menu multi-column columns-2 dropdown-menu-right"  aria-labelledby="navbarDropdown">
-	        	<div class="row">
+	        	<div class="row scrollable-menu">
 	        		<div class="col-sm-6">
 	        			<div class="vertical-divider-right"></div>
 	        			<div class="section-nav-title">

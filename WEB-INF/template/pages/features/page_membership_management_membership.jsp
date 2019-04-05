@@ -18,7 +18,7 @@
 
 <div id="section-product" class="section container-fluid">
 	
-	<section id="section-hero" class="section-hero">
+	<section id="section-hero" class="section-hero product-membership">
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-6 description">
@@ -27,7 +27,7 @@
 					<button type="button" class="btn btn-lg btn-primary btn-orange demo-link">Book a demo</button> <span><a href="#" data-toggle="modal" class="video-play" rel="https://www.youtube.com/embed/xodacZz6SqI">Watch a webinar <i class="fas fa-play-circle"></i></a></span>
 				</div>
 				<div class="col-md-6">
-					<img src="${baseUrl}/template-resources/images/internal/background/img_lap_dashboard.png" class="img-responsive" />
+					<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive" />
 				</div>
 			</div>
 		</div>
@@ -81,7 +81,7 @@
 				                    </div>
 				                    <div class="col-md-6">
 				                    	<div class="img-bottom">
-				                    		<img src="${baseUrl}/template-resources/images/internal/background/img_membership_widgets.png" class="img-responsive">
+				                    		<img src="${baseUrl}/template-resources/images/internal/background/img_membership_screenshot.jpg" class="img-responsive">
 				                    	</div>
 				                    </div>
 								</div>

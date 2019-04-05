@@ -355,8 +355,7 @@
 					<button type="button" class="btn btn-lg btn-outline-primary">Read More</button>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	
 </div>
 

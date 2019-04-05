@@ -19,6 +19,11 @@
 <div id="section-product" class="section container-fluid">
 	
 	<section id="section-hero" class="section-hero">
+		<div class="glb-bnr-strp" id="glb-bnr-strp-1">
+	        <div class="glb-bnr-strp-inr">
+	            <span class="glb-bnr-strp-brd"></span>
+	        </div>
+        </div>
 		<div class="content-container">
 			<div class="row">
 				<div class="col-md-6 description">
@@ -173,7 +178,7 @@
 					</div>
 				</div>
 			</div>
-		<div class="content-container">
+		</div>
 	</section>
 	<section id="section-faq">
 		<div class="content-container">
